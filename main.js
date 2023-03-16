@@ -59,6 +59,7 @@ function play(){
     }
     if(gameOver == true){
         playButton.disabled = true;
+        resultText.textContent="다음 기회에 ㅠㅠ";
     }
 }
 
